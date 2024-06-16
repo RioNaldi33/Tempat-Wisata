@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bali Tourism - Kuta Beach</title>
+    <title>Kuta Beach</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html">Bali Tourism</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,13 +35,50 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <h1 class="text-center">Kuta Beach</h1>
-        <div class="text-center">
-            <img src="img/kuta-beach.jpg" class="img-fluid" alt="Kuta Beach">
+    <header class="container mt-5 pt-5">
+        <div class="jumbotron text-center shadow">
+            <h1 class="display-4">Kuta Beach</h1>
+            <p class="lead">Nikmati pasir putih dan ombak yang menawan di Kuta Beach, salah satu pantai paling terkenal di Bali.</p>
+            <hr class="my-4">
+            <p>Kuta Beach adalah destinasi populer untuk berselancar, berjemur, dan menikmati pemandangan matahari terbenam yang memukau.</p>
         </div>
-        <p class="mt-3">Kuta Beach adalah salah satu pantai terpopuler di Bali, terkenal dengan pasir putihnya dan ombak yang cocok untuk berselancar. Pantai ini selalu ramai oleh wisatawan baik lokal maupun mancanegara. Di sepanjang pantai terdapat banyak restoran, bar, dan toko-toko suvenir yang menjual berbagai barang unik.</p>
-    </div>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/carousel1.jpg" class="card-img-top" alt="Kuta Beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Tentang Kuta Beach</h5>
+                        <p class="card-text">Kuta Beach terkenal dengan pantainya yang luas dan ombak yang cocok untuk berselancar. Di sepanjang pantai, terdapat banyak restoran, bar, dan toko-toko yang menawarkan berbagai macam barang dan makanan. Tempat ini juga terkenal dengan kehidupan malamnya yang meriah.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/kuta-sunset.jpg" class="card-img-top" alt="Kuta Beach Sunset">
+                    <div class="card-body">
+                        <h5 class="card-title">Matahari Terbenam di Kuta Beach</h5>
+                        <p class="card-text">Kuta Beach adalah tempat yang sempurna untuk menikmati matahari terbenam. Pantai ini menawarkan pemandangan yang luar biasa saat matahari terbenam, menarik banyak wisatawan setiap sore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/kuta-surfing.jpg" class="card-img-top" alt="Surfing di Kuta Beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Berselancar di Kuta Beach</h5>
+                        <p class="card-text">Ombak di Kuta Beach sangat cocok untuk berselancar, baik bagi pemula maupun peselancar berpengalaman. Tersedia banyak sekolah selancar yang menawarkan pelajaran bagi para wisatawan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light text-center py-3 mt-5">
+        <p>&copy; Website ini dibuat oleh Rionaldi Hasibuan.</p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
